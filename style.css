@@ -3,7 +3,7 @@ h1 {
 }
 
 button, div, form, input {
-	margin: 5px;
+	margin: 10px;
 }
 
 img {
@@ -13,12 +13,14 @@ img {
 
 label {
     color: blueviolet;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
 }
 
 .btn-default {
-    color: #000;
+    color: blueviolet;
     font-size: medium;
+    font-family: 'Merienda One', cursive;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
 	background-image: url("https://s17.postimg.org/6dohn1a9r/starry_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Merienda One', cursive;
 }
 
 .holder {
