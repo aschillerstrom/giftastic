@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Merienda One', cursive;
+}
+
+button, div, form, input {
+	margin: 5px;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+label {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.btn-default {
+    color: #000;
+    font-size: medium;
+}
+
+body {
+    color: blueviolet;
+	background-image: url("https://s17.postimg.org/6dohn1a9r/starry_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holder {
+    float: left;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
