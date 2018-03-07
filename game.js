@@ -8,7 +8,7 @@ $(document).ready(function(){
         var input = $(this).attr("data-name");
         var limit = 10;                                                                                                     //limit # of gifs returned
         //query URL var will put name in input, number of gifs as limit, then the api key.  also limit to pg-13
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=dc6zaTOxFJmzC" + "&rating=pg-13";   
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=vvk3DD0y01OVQAdzjvGbIztc3aQ30d7B" + "&rating=pg-13";   
 
         $.ajax({
             url: queryURL, 
