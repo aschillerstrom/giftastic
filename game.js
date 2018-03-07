@@ -1,13 +1,14 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Kim Kardashian", "The Bachelor", "Gordon Ramsey"];
+    var displayedButtons = ["Kim Kardashian", "The Amazing Race", "Fear Factor"];
 
     function displayImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
         var limit = 10;                                                                                                     //limit # of gifs returned
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=dc6zaTOxFJmzC";   
+        //query URL var will put name in input, number of gifs as limit, then the api key.  also limit to pg-13
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=dc6zaTOxFJmzC" + "&rating=pg-13";   
 
         $.ajax({
             url: queryURL, 
