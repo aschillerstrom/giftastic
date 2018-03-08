@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Kim Kardashian", "The Amazing Race", "Fear Factor"];
+    var displayedButtons = ["Kim Kardashian", "The Amazing Race", "Judge Judy"];
 
     function displayImg(){
 
